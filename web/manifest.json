@@ -1,0 +1,23 @@
+{
+    "name": "Dash Puzzle",
+    "short_name": "Dash Puzzle",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A slide puzzle built for Flutter Challenge",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

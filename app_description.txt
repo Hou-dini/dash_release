@@ -1,0 +1,18 @@
+Dash Puzzle is a Flutter Web Application that is essentially a slide puzzle and 
+features two themes: Chamaeleon Cloud I and Dashatar theme.
+The app is responsive to different screen sizes and has the functionality of a Progressive
+Web Application(PWA). Furthermore, Dash Puzzle is interactive. For example, animated characters
+respond to user inputs such as tap/click.
+The app supports features such as AppLocalizations, Tool tip, Semantics label, and Audio.
+Also, the app allows a user to share their score of the completed puzzle to social media outlets
+such as Facebook and Twitter.
+
+
+Dash puzzle has a responsive layout builder that exposes the layout builder widget to different
+screen sizes. Animations in the app are implemented using Rive and take advantage of Rive's
+state machine feature to incorporate logic into the animations. For example, an hourglass
+animation responds to the state of the puzzle, activating when the puzzle starts. Other animations
+respond to a user's input such as tap/click by changing state and responding with a sound.
+The puzzle tiles and share your score dialog make use of Flutter's implicit and explicit
+animation widgets. For example, puzzle tiles align themselves using AnimatedAlign widget. The
+entire puzzle view page is wrapped inside an AnimatedContainer that animates its contents implicitly.
